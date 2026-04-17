@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: v11-recon-app
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
